@@ -1,0 +1,26 @@
+// LCD Ports
+IO_LOC "lcd_data" 77;
+IO_PORT "lcd_data" PULL_MODE=UP DRIVE=8;
+IO_LOC "lcd_data_command" 49;
+IO_PORT "lcd_data_command" PULL_MODE=UP DRIVE=8;
+IO_LOC "lcd_chip_select" 48;
+IO_PORT "lcd_chip_select" PULL_MODE=UP DRIVE=8;
+IO_LOC "lcd_clock" 76;
+IO_PORT "lcd_clock" PULL_MODE=UP DRIVE=8;
+IO_LOC "lcd_reset" 47;
+IO_PORT "lcd_reset" PULL_MODE=UP DRIVE=8;
+/*
+// Serial RX and TX
+IO_LOC "serial_rx" 18;
+IO_PORT "serial_rx" PULL_MODE=UP;
+IO_LOC "serial_tx" 17;
+IO_PORT "serial_tx" PULL_MODE=UP DRIVE=8;
+*/
+// System Clock and Reset
+IO_LOC "clock" 52;
+IO_PORT "clock" PULL_MODE=UP;
+IO_LOC "reset" 4;
+IO_PORT "reset" PULL_MODE=UP;
+
+IO_LOC "button" 3;
+IO_PORT "button" PULL_MODE=UP;

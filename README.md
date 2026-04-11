@@ -4,7 +4,7 @@ Verilog demo to render a 3D transforming cube on the Sipeed Tang Nano 9K FPGA.
 
 This project implements a custom cube rendering module written in Verilog. It calculates and renders a 3D transforming cube directly onto a 1.14" SPI LCD screen. 
 
-![Demo Image](demo/3dcubedemo.jpg)
+![Demo Image](demo/demo_fpga_3d_graphics.gif)
 
 ## Features
 * **Parallel Line Rendering:** Evaluates all 12 edges of the 3D cube simultaneously using 12 dedicated hardware circuits.
